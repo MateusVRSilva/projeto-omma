@@ -1,0 +1,396 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #ffc107;
+    height: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav {
+    background: #FFA000;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    margin: 0px 28px;
+}
+
+#hero-header>h2 {
+    color: white;
+    position: absolute;
+    width: 370px;
+    left: 969px;
+    top: 331px;
+    height: 170px;
+
+    font-weight: 700;
+    font-size: 70px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+#receitas-da-semana>h2 {
+    position: absolute;
+    width: 830px;
+    height: 67px;
+    left: 305px;
+    top: 878px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFA000;
+}
+
+
+#risoto {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 121px;
+    top: 1018px;
+}
+
+#risoto>span {
+    position: absolute;
+
+    height: 71px;
+    left: 62px;
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#risoto>a {
+    position: relative;
+    width: 99px;
+    height: 200px;
+    left: 100px;
+    top: 70px;
+
+    background-color: #176902;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px 43px;
+
+
+}
+
+#bolo {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 549px;
+    top: 1018px;
+}
+
+#bolo>span {
+    position: absolute;
+
+    height: 71px;
+    left: 62px;
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+}
+
+#bolo>a {
+    background-color: #176902;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px 43px;
+
+    position: relative;
+    width: 99px;
+    height: 200px;
+    left: 70px;
+    top: 70px;
+}
+
+#arroz {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 974px;
+    top: 1018px;
+}
+
+#arroz>span {
+    position: absolute;
+
+    height: 71px;
+    left: 62px;
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+#arroz>a {
+    background-color: #176902;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px 43px;
+
+    position: relative;
+    width: 99px;
+    height: 200px;
+    left: 70px;
+    top: 70px;
+}
+
+#hero-footer {
+    position: absolute;
+    width: 1440px;
+    height: 772px;
+    left: 0px;
+    top: 1625px;
+
+}
+
+#hero-footer>h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    padding: 150px 0px 0px 100px;
+
+}
+
+#hero-footer>p {
+    padding: 150px 100px 0px 100px;
+
+
+    width: 450px;
+    height: 0px;
+    left: 123px;
+    top: 1957px;
+
+
+
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer>span {
+    width: 464px;
+    height: 22px;
+    left: 380px;
+    margin: 200px 200px 200px 100px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    text-transform: lowercase;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 2397px;
+    justify-content: start;
+    background-color: #ffc107;
+    color: #FDFDFD;
+    padding: 20px 0px
+}
+
+footer>img {
+    padding: 0px 0px 0px 50px;
+    height: 90px;
+    vertical-align: middle;
+
+
+
+
+}
